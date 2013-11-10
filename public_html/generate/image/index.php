@@ -72,7 +72,8 @@ if ($filetype == "svg") {
     exit(0);
 }
 $png_filename = tempnam("../media", $temp_prefix);
-$rsvg_output = `/data/project/perfect-venn-diagram-generator/rsvg-convert -f $filetype $svg_filename 3>&1 2>&3 > $png_filename`;
+$rsvg_path = __DIR__ . '/../../../rsvg-convert';
+$rsvg_output = `$rsvg_path -f $filetype $svg_filename 3>&1 2>&3 > $png_filename`;
 if (strlen($rsvg_output) > 0) {
     echo('<p>ERROR: ' . $rsvg_output . '</p>');
     unlink($png_filename);

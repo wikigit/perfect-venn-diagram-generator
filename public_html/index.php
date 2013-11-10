@@ -27,6 +27,6 @@ Number of items in neither circle (leave blank if not applicable): <input type="
 
 <p>To contact the developer, leave a note at <a href="http://en.wikipedia.org/wiki/User_talk:Dcoetzee">User talk:Dcoetzee on English Wikipedia</a>, or e-mail <code>dc@moonflare.com</code></p>
 
-<p>This tool is <a href="http://unlicense.org/">free and unencumbered software released into the public domain.</a></p>
+<p>This tool is <a href="http://unlicense.org/">free and unencumbered software released into the public domain.</a> Source code is <a href="https://github.com/wikigit/perfect-venn-diagram-generator">available from github</a>.</p>
 </form>
 </body>
